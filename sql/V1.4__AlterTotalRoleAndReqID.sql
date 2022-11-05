@@ -1,0 +1,1 @@
+ALTER TABLE users  add IF NOT EXISTS req_id varchar;

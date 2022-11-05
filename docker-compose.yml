@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  auth:
+    image: "auth:${TAG}"
+    container_name: auth
+    ports:
+      - 9080:9080
+    build:
+      context: .
+    volumes:
+      - ./config.${BUILD}.yaml:/config.yaml:ro
+    networks:
+      - msf
+    depends_on:
+      auth_db:
+        condition: service_healthy
+  auth_db:
+    image: postgres:14-alpine
+    container_name: auth_db
+    ports:
+      - 9432:5432
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - ./.docker/postgres_data:/var/lib/postgresql/data
+    networks:
+      - msf
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER}", "-d", "${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+  flyway:
+    image: flyway/flyway
+    command: -url=jdbc:postgresql://auth_db/auth -user=${POSTGRES_USER} -password=${POSTGRES_PASSWORD} -connectRetries=60 migrate
+    volumes:
+      - "./sql:/flyway/sql"
+    networks:
+      - msf
+    depends_on:
+      - auth_db
+
+networks:
+  msf:
+    driver: bridge

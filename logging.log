@@ -1,0 +1,160 @@
+{"level":"info","time":"2022-09-08T15:35:31+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-08T15:50:54+07:00","message":"Start http server at :9080"}
+{"level":"error","req_id":"cccqtg70pej35i2m33h0","error":"invalid token","time":"2022-09-08T15:58:40+07:00","message":"AuthError"}
+{"level":"info","time":"2022-09-08T16:18:43+07:00","message":"Start http server at :9080"}
+{"level":"info","layer":"handler:users","req_id":"cccr8c70pej0t46jj1j0","error":"{\"errors\":[{\"Field\":\"full_name\",\"Message\":\"This field is required\"},{\"Field\":\"org_id\",\"Message\":\"This field is required\"}]}","time":"2022-09-08T16:21:52+07:00","message":"validation error"}
+{"level":"error","layer":"repository:users","req_id":"cccr8rv0pej0t46jj1jg","error":"ERROR: column \"role_id\" of relation \"orgs\" does not exist (SQLSTATE 42703)","time":"2022-09-08T16:22:55+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T16:49:15+07:00","message":"Start http server at :9080"}
+{"level":"info","layer":"handler:users","req_id":"cccrlrf0pej3mq0539h0","error":"{\"errors\":[{\"Field\":\"email\",\"Message\":\"invalid email format\"}]}","time":"2022-09-08T16:50:37+07:00","message":"validation error"}
+{"level":"error","layer":"repository:users","req_id":"cccrm9v0pej3mq0539hg","error":"ERROR: column \"role_id\" of relation \"orgs\" does not exist (SQLSTATE 42703)","time":"2022-09-08T16:51:35+07:00","message":"StoreUserError"}
+{"level":"info","layer":"handler:users","req_id":"cccrmlf0pej3mq0539i0","error":"{\"errors\":[{\"Field\":\"full_name\",\"Message\":\"This field is required\"},{\"Field\":\"email\",\"Message\":\"This field is required\"}]}","time":"2022-09-08T16:52:21+07:00","message":"validation error"}
+{"level":"error","layer":"handler:users","req_id":"cccrn070pej3mq0539ig","error":"invalid character '/' looking for beginning of value","time":"2022-09-08T16:53:04+07:00","message":"could not decode JSON request body"}
+{"level":"error","layer":"handler:users","req_id":"cccrn070pej3mq0539ig","error":"validator: (nil *users.createUserReq)","time":"2022-09-08T16:53:04+07:00","message":"InvalidValidationError"}
+{"level":"info","time":"2022-09-08T17:12:38+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"cccs0fv0pej3cm7n5lb0","error":"ERROR: column \"role_id\" of relation \"orgs\" does not exist (SQLSTATE 42703)","time":"2022-09-08T17:19:00+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T17:25:00+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"cccs6070pej3sp197veg","error":"ERROR: column \"role_id\" of relation \"orgs\" does not exist (SQLSTATE 42703)","time":"2022-09-08T17:25:04+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"cccs71f0pej3sp197vf0","error":"ERROR: column \"role_id\" of relation \"orgs\" does not exist (SQLSTATE 42703)","time":"2022-09-08T17:27:17+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T17:42:25+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"cccsecv0pej4dt6gvnd0","error":"ERROR: null value in column \"password\" of relation \"users\" violates not-null constraint (SQLSTATE 23502)","time":"2022-09-08T17:42:59+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T19:06:37+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccctlkn0pej2ra03dv6g","error":"ERROR: null value in column \"password\" of relation \"users\" violates not-null constraint (SQLSTATE 23502)","time":"2022-09-08T19:06:42+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T21:52:07+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccd04h70pej3m271ncog","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-08T21:55:00+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccd05f70pej3m271ncpg","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-08T21:57:00+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T22:55:11+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-08T22:56:38+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-08T22:59:15+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccd132f0pej12i28m33g","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-08T23:00:09+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T23:00:51+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccd13e70pej2n34jhnb0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-08T23:00:57+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T23:16:54+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccd1brv0pej28m41bjjg","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-08T23:18:55+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-08T23:26:02+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccd1fe70pej2js35n270","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-08T23:26:32+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T07:40:05+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccd8n3f0pej0fl3i02eg","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T07:40:46+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T13:07:27+07:00","message":"Start http server at :9080"}
+{"level":"error","req_id":"ccddgg70pej0sp618fjg","error":"invalid token","time":"2022-09-09T13:08:00+07:00","message":"AuthError"}
+{"level":"info","time":"2022-09-09T13:31:56+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccddrpv0pej2qt66dv6g","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T13:32:07+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T13:41:25+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccde0670pej0t54b1gr0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T13:41:28+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T13:43:00+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccde0uf0pej2ql2fqpv0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T13:43:05+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccde15f0pej2ql2fqq00","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T13:43:34+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T13:45:56+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccde2a70pej3i87fglk0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T13:46:00+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccde2df0pej3i87fgll0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T13:46:14+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T13:47:18+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccde2vf0pej3vj2a2qd0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T13:47:25+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T13:48:59+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccde3pv0pej0oq4l2eh0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T13:49:11+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccde3tf0pej0oq4l2ei0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T13:49:25+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T13:58:08+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccde81n0pej2dt330i80","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T13:58:14+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccde8hf0pej2dt330iag","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T13:59:18+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T14:29:36+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"handler:users","req_id":"ccden0n0pej0va0h6gjg","error":"invalid character '/' looking for beginning of object key string","time":"2022-09-09T14:30:10+07:00","message":"could not decode JSON request body"}
+{"level":"error","layer":"handler:users","req_id":"ccden0n0pej0va0h6gjg","error":"validator: (nil *users.createUserReq)","time":"2022-09-09T14:30:10+07:00","message":"InvalidValidationError"}
+{"level":"error","layer":"handler:users","req_id":"ccden1v0pej0va0h6gk0","error":"invalid character '/' after object key:value pair","time":"2022-09-09T14:30:15+07:00","message":"could not decode JSON request body"}
+{"level":"error","layer":"handler:users","req_id":"ccden1v0pej0va0h6gk0","error":"validator: (nil *users.createUserReq)","time":"2022-09-09T14:30:15+07:00","message":"InvalidValidationError"}
+{"level":"error","layer":"handler:users","req_id":"ccden3v0pej0va0h6gkg","error":"invalid character '\"' after object key:value pair","time":"2022-09-09T14:30:23+07:00","message":"could not decode JSON request body"}
+{"level":"error","layer":"handler:users","req_id":"ccden3v0pej0va0h6gkg","error":"validator: (nil *users.createUserReq)","time":"2022-09-09T14:30:23+07:00","message":"InvalidValidationError"}
+{"level":"error","layer":"handler:users","req_id":"ccden4n0pej0va0h6gl0","error":"invalid character '/' after object key:value pair","time":"2022-09-09T14:30:26+07:00","message":"could not decode JSON request body"}
+{"level":"error","layer":"handler:users","req_id":"ccden4n0pej0va0h6gl0","error":"validator: (nil *users.createUserReq)","time":"2022-09-09T14:30:26+07:00","message":"InvalidValidationError"}
+{"level":"error","layer":"handler:users","req_id":"ccdena70pej0va0h6glg","error":"invalid character '/' after object key:value pair","time":"2022-09-09T14:30:48+07:00","message":"could not decode JSON request body"}
+{"level":"error","layer":"handler:users","req_id":"ccdena70pej0va0h6glg","error":"validator: (nil *users.createUserReq)","time":"2022-09-09T14:30:48+07:00","message":"InvalidValidationError"}
+{"level":"info","time":"2022-09-09T14:32:31+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"handler:users","req_id":"ccdeo4v0pej0ul6dk7k0","error":"invalid character '/' after object key:value pair","time":"2022-09-09T14:32:35+07:00","message":"could not decode JSON request body"}
+{"level":"error","layer":"handler:users","req_id":"ccdeo4v0pej0ul6dk7k0","error":"validator: (nil *users.createUserReq)","time":"2022-09-09T14:32:35+07:00","message":"InvalidValidationError"}
+{"level":"info","time":"2022-09-09T14:37:18+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-09T14:41:39+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-09T14:58:40+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdf4df0pej3db668jm0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T14:58:45+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T15:02:02+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdf5vv0pej3us2th3p0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T15:02:08+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T15:27:28+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-09T15:28:23+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdfibv0pej3bh064d60","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T15:28:31+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T15:35:32+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdflm70pej0pe5fk3p0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T15:35:36+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccdfls70pej0pe5fk3q0","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T15:36:00+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T15:41:56+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdfopf0pej1tp631fp0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T15:42:13+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T15:43:55+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdfpl70pej1u62fvodg","error":"ERROR: duplicate key value violates unique constraint \"users_pkey\" (SQLSTATE 23505)","time":"2022-09-09T15:44:04+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T15:44:25+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-09T15:54:24+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-09T16:12:54+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdg77n0pej18q4ek180","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T16:13:02+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T16:40:15+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdgk1f0pej30o51286g","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T16:40:21+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T16:41:36+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdgklv0pej4766kv1h0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T16:41:43+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccdgo2v0pej4766kv1j0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T16:48:59+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T16:53:57+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdgqen0pej2qh71hcg0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T16:55:14+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T17:03:07+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdguo70pej31t6ua3c0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T17:03:12+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T17:04:21+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdgvb70pej4jq11422g","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T17:05:01+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T17:05:54+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdh01f0pej3rv7et0ug","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T17:06:29+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T17:07:43+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-09T17:08:49+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdh1dn0pej2b72ebn10","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T17:09:21+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T17:10:15+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdh2270pej3eh5oring","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T17:10:22+07:00","message":"StoreUserError"}
+{"level":"info","layer":"handler:users","req_id":"ccdh2pf0pej3eh5oriog","error":"{\"errors\":[{\"Field\":\"email\",\"Message\":\"This field is required\"}]}","time":"2022-09-09T17:11:49+07:00","message":"validation error"}
+{"level":"info","layer":"handler:users","req_id":"ccdh2rn0pej3eh5orip0","error":"{\"errors\":[{\"Field\":\"full_name\",\"Message\":\"This field is required\"}]}","time":"2022-09-09T17:11:58+07:00","message":"validation error"}
+{"level":"info","time":"2022-09-09T17:21:52+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdh7i70pej0st3agvpg","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T17:22:00+07:00","message":"StoreUserError"}
+{"level":"info","layer":"handler:users","req_id":"ccdh7nn0pej0st3agvqg","error":"{\"errors\":[{\"Field\":\"email\",\"Message\":\"invalid email format\"}]}","time":"2022-09-09T17:22:22+07:00","message":"validation error"}
+{"level":"info","time":"2022-09-09T17:30:52+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdhc2v0pej1q86l4oh0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T17:31:40+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T21:26:17+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-09T21:29:10+07:00","message":"Start http server at :9080"}
+{"level":"error","req_id":"ccdkrh70pej0mh25cimg","error":"invalid token","time":"2022-09-09T21:29:24+07:00","message":"AuthError"}
+{"level":"error","layer":"repository:users","req_id":"ccdkrkf0pej0mh25cin0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T21:29:46+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccdktcn0pej0mh25cip0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T21:33:27+07:00","message":"StoreUserError"}
+{"level":"error","layer":"repository:users","req_id":"ccdktov0pej0mh25ciq0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T21:34:19+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-09T21:36:38+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccdkvp70pej4ms1k7eh0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-09T21:38:28+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-10T14:52:43+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"cce47670pej24q7udsrg","error":"record not found","time":"2022-09-10T14:58:16+07:00","message":"GetUserError"}
+{"level":"info","time":"2022-09-10T15:34:04+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-10T15:58:20+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-10T16:13:12+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-10T17:22:19+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"cce6auf0pej25v28br6g","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-10T17:22:50+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-10T17:24:54+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"cce6btn0pej0tb3emk30","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-10T17:24:54+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-10T17:31:50+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"cce6ff70pej4sl6lrq00","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-10T17:32:42+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-12T09:09:08+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccf9dqf0pej3q44lnmlg","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-12T09:18:18+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-12T11:44:20+07:00","message":"Start http server at :9080"}
+{"level":"info","layer":"usecase:auth","req_id":"ccfbiin0pej3cp3rvob0","error":"template: email_template.html:40:87: executing \"email_template.html\" at <.Path>: can't evaluate field Path in type base.Repo","time":"2022-09-12T11:45:00+07:00","message":"Can not send mail"}
+{"level":"info","layer":"usecase:auth","req_id":"ccfbiu70pej3cp3rvoc0","error":"template: email_template.html:40:87: executing \"email_template.html\" at <.Path>: can't evaluate field Path in type base.Repo","time":"2022-09-12T11:45:44+07:00","message":"Can not send mail"}
+{"level":"error","layer":"repository:users","req_id":"ccfbknf0pej3cp3rvod0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-12T11:49:34+07:00","message":"StoreUserError"}
+{"level":"info","layer":"usecase:users","req_id":"ccfbkpv0pej3cp3rvoe0","error":"template: active_template.html:41:66: executing \"active_template.html\" at <.Path>: can't evaluate field Path in type base.Repo","time":"2022-09-12T11:49:44+07:00","message":"Can not send mail"}
+{"level":"info","time":"2022-09-12T11:51:13+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccfblhv0pej36n3hohh0","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-12T11:51:19+07:00","message":"StoreUserError"}
+{"level":"info","time":"2022-09-12T11:52:59+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-12T12:03:44+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-12T12:05:03+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-12T12:08:00+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-12T12:11:03+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-12T13:10:50+07:00","message":"Start http server at :9080"}
+{"level":"error","layer":"repository:users","req_id":"ccfd1870pej3an469v1g","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-09-12T13:24:32+07:00","message":"StoreUserError"}
+{"level":"info","layer":"handler:users","req_id":"ccfd1ev0pej3an469v2g","error":"{\"errors\":[{\"Field\":\"full_name\",\"Message\":\"This field is required\"}]}","time":"2022-09-12T13:24:59+07:00","message":"validation error"}
+{"level":"info","layer":"handler:users","req_id":"ccfd29v0pej3an469v30","error":"{\"errors\":[{\"Field\":\"email\",\"Message\":\"invalid email format\"}]}","time":"2022-09-12T13:26:47+07:00","message":"validation error"}
+{"level":"error","req_id":"ccfd2kn0pej3an469v3g","error":"wrong token chema format","time":"2022-09-12T13:27:30+07:00","message":"AuthError"}
+{"level":"info","time":"2022-09-12T13:45:12+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-09-12T13:46:45+07:00","message":"Start http server at :9080"}
+{"level":"info","time":"2022-11-03T12:14:14+07:00","message":"Start http server at :9080"}
+{"level":"error","req_id":"cdhkviv0pej12b6sj54g","error":"invalid token","time":"2022-11-03T12:21:15+07:00","message":"AuthError"}
+{"level":"error","req_id":"cdhkvtf0pej12b6sj56g","error":"invalid token","time":"2022-11-03T12:21:57+07:00","message":"AuthError"}
+{"level":"error","req_id":"cdhl09n0pej12b6sj58g","error":"invalid token","time":"2022-11-03T12:22:46+07:00","message":"AuthError"}
+{"level":"error","layer":"repository:users","req_id":"cdhl0cn0pej12b6sj590","error":"ERROR: duplicate key value violates unique constraint \"users_email_key\" (SQLSTATE 23505)","time":"2022-11-03T12:22:58+07:00","message":"StoreUserError"}

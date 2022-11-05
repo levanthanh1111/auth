@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <style>
+      .container {
+        max-width: 700px;
+        padding: 20px;
+        border: solid #ccc 1px;
+      }
+      .button {
+        background-color: green;
+        opacity: 70%;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .btn{
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Hi {{ .To}},</h3>
+      <p>We receive a request to reset the password for your account.</p>
+      <p>To reset your password, click on the button below:</p>
+      <button class="button"><a class="btn" rel="nofollow noopener noreferrer" href="{{.ResetPassword}}"> Reset Password</a><br></button>
+      <p> Or copy and paste the URL into your browser:</p> <br>
+      <a rel="nofollow noopener noreferrer" href="{{.ResetPassword}}"> Reset Password</a><br>
+      <strong>Note: This link will expire after 48 hours</strong>
+    </div>
+  </body>
+</html>
+

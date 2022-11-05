@@ -1,0 +1,54 @@
+service:
+  name: auth
+  version: 1.0
+  port: 9080
+
+logger:
+  #level: trace | debug | info | warn | error | fatal default: debug
+  level: debug
+  # out: console | stdout | stderr | path/to/file. default: console
+  output: logging.log
+  # max_size: the maxium amount of megabytes each log file, default: 300, only applied when output setted as a file path
+  max_size: 300
+  # max_backups: the maximum number of rolled files to keep, default: 0 is to retain all old log files, only applied when output setted as a file path
+  max_backups: 10
+  # max_age: the maximum age in days to keep a logfile, default: 0 is not to remove old log files base on age, only applied when output setted as a file path
+  max_age: 30
+
+# postgres
+db:
+  host: localhost
+  port: 5432
+  user: root
+  pass: 1234
+  db_name: auth
+  # max_idle_conn: maximum number of connections in the idle connection pool, default 3
+  max_idle_conn: 3
+  # max_open_conn; maximum number of open connections to the database, default 10
+  max_open_conn: 10
+  # max_life_time: maximum connection life time in second, default 3600
+  max_conn_life_time: 3600
+  # logmode_level: silent | error | warn | 4: info, default: silent
+  logmode_level: 4
+  # disable_log_color: disable the corlorfull log, not applied when logmode is not silent, default: true
+  disable_log_color: false
+
+auth:
+  kind: jwt
+  secret: 1CgxTZkylgQYXu16fVQ8fkd_Kbw7h5XMITtNrEOqXFdzy6WTWQOKW7lc_DINetHOwIWyCZcQRdqUIxyN60gNkXoclS73Lwm8eCvbgOArMGwDyaWKC6Gv2cYkelW6ecLwTahr2NkM31FoOiZgTp6pKNcBUhI9YlD2np31iebDHgMcLKIf0N7Bv_U-yd8cDigJDSXpDbMVvwDl0aDCau3u4AW13rP-KyKQHIv63IQFPbZqlt4pDgsNRuthiPtkNO_taHxzOnonaffgmQB1YrDgETUtS9s8ok6ES5PUdip9BVqC4-473LpPNV02eKHJzEkbvtTZrOuZTdBXrbYvkKIR3Q
+  token_schema: bearer
+  header: Authorization
+  claim:
+    issuer: http://msf.tpptechnology.com
+    # expired time in seconds.
+    expire_in: 172800
+
+# mailjet
+mailer:
+  host: smtp.mailtrap.io
+  port: 2525
+  username: 1adf1ae081dd27
+  password: a41d7e922ca689
+  sender: anh.vu@tpptechnology.com
+  reset_path: http://172.16.11.112:8080/auth/forgot-password?jt=
+  active_path: http://172.16.11.112:8080/auth/activate-password?jt=
